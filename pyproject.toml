@@ -1,0 +1,13 @@
+[project]
+name = "blog-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dynaconf>=3.2.11",
+    "fastapi>=0.116.1",
+    "loguru>=0.7.3",
+    "peewee>=3.18.2",
+    "uvicorn>=0.32.1",
+]
