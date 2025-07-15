@@ -13,7 +13,9 @@ def main():
     print("正在启动 blog-backend 服务器...")
     init_db()
     origins = [
-        "https://cat-paw-blog.netlify.app"
+        "https://cat-paw-blog.netlify.app",
+        "localhost",
+        "localhost:8888"
     ]
     app.add_middleware(
         CORSMiddleware,
