@@ -14,8 +14,8 @@ def main():
     init_db()
     origins = [
         "https://cat-paw-blog.netlify.app",
-        "localhost",
-        "localhost:8888"
+        "http://localhost",
+        "http://localhost:8888"
     ]
     app.add_middleware(
         CORSMiddleware,
