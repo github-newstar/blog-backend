@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p ../blog-backend-go)",
+      "Bash(mkdir ../blog-backend-go)",
+      "Bash(cd ../blog-backend-go)",
+      "Bash(go mod init blog-backend-go)",
+      "Bash(mkdir -p {models,handlers,middleware,config,database})",
+      "Bash(mkdir models handlers middleware config database)",
+      "Bash(go get github.com/gin-gonic/gin github.com/gin-contrib/cors gorm.io/gorm gorm.io/driver/sqlite)",
+      "Bash(chmod +x build-linux.sh)",
+      "Bash(go mod tidy)",
+      "Bash(go build -o blog-backend-test main.go)",
+      "Bash(ls -la)",
+      "Bash(./build-linux.sh)"
+    ],
+    "deny": []
+  }
+}
